@@ -22,7 +22,7 @@ const h = (t) => ({ Authorization: `Bearer ${t}` });
 
 const ADMIN = { name: 'Site Admin', email: 'Admin@Test.ng', adminId: 'admin-001', password: 'Admin@12345' };
 const alice = { name: 'Alice Owner', email: 'alice@test.ng', staffId: 'stf-a', role: 'Pharmacist', pharmacyName: 'Alice Pharmacy', location: 'Ikeja, Lagos', password: 'secret123' };
-const bob = { name: 'Bob Stock', email: 'bob@test.ng', staffId: 'STF-B', role: 'Pharmacy attendant', pharmacyName: 'Bob Chemist', password: 'secret123' };
+const bob = { name: 'Bob Stock', email: 'bob@test.ng', staffId: 'STF-B', role: 'Staff', pharmacyName: 'Bob Chemist', password: 'secret123' };
 const carol = { name: 'Carol Care', email: 'carol@test.ng', staffId: 'STF-C', role: 'Pharmacist', pharmacyName: 'Carol Drugs', password: 'secret123' };
 
 let adminToken; const t = {}; const id = {}; const ctx = {};

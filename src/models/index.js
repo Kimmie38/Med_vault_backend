@@ -8,7 +8,7 @@ const ObjectId = Schema.Types.ObjectId;
 // The ERD's "ID" columns are MongoDB's `_id`; the API exposes them as userId, drugId, batchId ...
 
 export const DRUG_CATEGORIES = ['Antibiotic', 'Analgesic', 'Antimalarial', 'Antidiabetic', 'Antihistamine', 'Supplement', 'Other'];
-export const ROLES = ['Pharmacist', 'Pharmacy attendant'];
+export const ROLES = ['Pharmacist', 'Staff'];
 export const USER_STATUSES = ['active', 'suspended'];
 export const ACTIVITY_TYPES = ['login', 'signup', 'stock', 'sale', 'alert', 'admin'];
 
